@@ -1,5 +1,5 @@
 import { ArrowUp, Github, Linkedin, Mail, Send } from 'lucide-react';
-import { navLinks, profile, contact } from '@/data';
+import { navLinks, profile, contact } from '../data';
 
 type Page = 'home' | 'about' | 'education' | 'skills' | 'contact';
 

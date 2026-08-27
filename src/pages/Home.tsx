@@ -1,6 +1,6 @@
 import { ArrowDown, ArrowRight, Github, Linkedin, Mail, Send, Sparkles } from 'lucide-react';
-import { profile, stats, contact } from '@/data';
-import { useReveal } from '@/hooks/useReveal';
+import { profile, stats, contact } from '../data';
+import { useReveal } from '../hooks/useReveal';
 
 type Page = 'home' | 'about' | 'education' | 'skills' | 'contact';
 

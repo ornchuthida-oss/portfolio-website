@@ -1,6 +1,6 @@
 import { CheckCircle2, GraduationCap, MapPin, Calendar } from 'lucide-react';
-import { education, profile } from '@/data';
-import { useReveal } from '@/hooks/useReveal';
+import { education, profile } from '../data';
+import { useReveal } from '../hooks/useReveal';
 
 type Page = 'home' | 'about' | 'education' | 'skills' | 'contact';
 

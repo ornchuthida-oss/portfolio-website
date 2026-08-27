@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
-import { Navbar } from '@/components/Navbar';
-import { Footer } from '@/components/Footer';
-import { Home } from '@/pages/Home';
-import { About } from '@/pages/About';
-import { Education } from '@/pages/Education';
-import { SkillsProjects } from '@/pages/SkillsProjects';
-import { Contact } from '@/pages/Contact';
+import { Navbar } from './components/Navbar';
+import { Footer } from './components/Footer';
+import { Home } from './pages/Home';
+import { About } from './pages/About';
+import { Education } from './pages/Education';
+import { SkillsProjects } from './pages/SkillsProjects';
+import { Contact } from './pages/Contact';
 
 type Page = 'home' | 'about' | 'education' | 'skills' | 'contact';
 

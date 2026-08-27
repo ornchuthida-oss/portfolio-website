@@ -1,6 +1,6 @@
 import { Target, Heart, BookOpen, Rocket } from 'lucide-react';
-import { profile, learning } from '@/data';
-import { useReveal } from '@/hooks/useReveal';
+import { profile, learning } from '../data';
+import { useReveal } from '../hooks/useReveal';
 
 type Page = 'home' | 'about' | 'education' | 'skills' | 'contact';
 

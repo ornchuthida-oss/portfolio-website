@@ -1,6 +1,6 @@
 import { ExternalLink, Code2, Palette, Database, Wrench, Layers } from 'lucide-react';
-import { skills, projects } from '@/data';
-import { useReveal } from '@/hooks/useReveal';
+import { skills, projects } from '../data';
+import { useReveal } from '../hooks/useReveal';
 
 type Page = 'home' | 'about' | 'education' | 'skills' | 'contact';
 

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import { navLinks, profile } from '@/data';
+import { navLinks, profile } from '../data';
 
 type Page = 'home' | 'about' | 'education' | 'skills' | 'contact';
 

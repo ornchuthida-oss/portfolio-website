@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Mail, Phone, Send, Github, Linkedin, Check, AlertCircle, MapPin } from 'lucide-react';
-import { contact, profile } from '@/data';
-import { useReveal } from '@/hooks/useReveal';
+import { contact, profile } from '../data';
+import { useReveal } from '../hooks/useReveal';
 
 type Status = 'idle' | 'error' | 'sent';
 
